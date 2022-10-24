@@ -8,6 +8,9 @@ Wordle Peaks is a puzzling variant of Wordle in which the feedback given doesn't
 **EXAMPLE:** <br>
 ![image](https://user-images.githubusercontent.com/47650058/197369514-510993f9-0213-48ba-82e5-4598c6bcfc3c.png)
 
+### Example Usage
+![example usage](exampleusage.png)
+
 ----
 
 ### Statistics
