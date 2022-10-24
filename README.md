@@ -1,5 +1,6 @@
 # WordlePeaks-Ai
-Simple Wordle Peaks Solver that can quickly solve Wordle Peaks puzzles.
+Simple Wordle Peaks Solver that can quickly solve Wordle Peaks puzzles. <br>
+**THE BEST OPENER FOR WORDLE PEAKS IS `KNOLL`**
 
 ## Wordle Peaks
 Wordle Peaks is a puzzling variant of Wordle in which the feedback given doesn't tell you whether its in the word or not, but instead, the feedback lets you know whether the letter is higher or lower than the input in terms of its position in the alphabet.
