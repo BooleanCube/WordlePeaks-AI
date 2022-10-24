@@ -1,4 +1,4 @@
-# WordlePeaks-Ai
+# WordlePeaks-AI
 Simple Wordle Peaks Solver that can quickly solve Wordle Peaks puzzles. <br>
 **THE BEST OPENER FOR WORDLE PEAKS IS `KNOLL`**
 
