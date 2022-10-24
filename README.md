@@ -12,12 +12,12 @@ Wordle Peaks is a puzzling variant of Wordle in which the feedback given doesn't
 
 ### Statistics
 - 100% win rate
-- Solvable in under 30 seconds
+- Instant calculating and guessing
 
 ### Symbols
-- The orange square marks the symbol indicating that the letter in that position stands in a higher position in the alphabet than the given input character.
-- The blue square marks the symbol indicating that the letter in that position stands in a lower position in the alphabet than the given input character.
-- The green squares mean you found the correct letter in the correct position.
+- The orange square marks the symbol indicating that the letter in that position stands in a higher position in the alphabet than the given input character. (U)
+- The blue square marks the symbol indicating that the letter in that position stands in a lower position in the alphabet than the given input character. (D)
+- The green squares mean you found the correct letter in the correct position. (G)
 
 ### Rules
 - Guess the 5 letter English Word using limited feedback as described as above.
@@ -25,7 +25,10 @@ Wordle Peaks is a puzzling variant of Wordle in which the feedback given doesn't
 - Win or lose if you can't guess the word in 6 tries maximum, you lose.
 
 ## Algorithms
-Constructing a Binary Search with a minimum and maximum limit for each of the 5 characters and running them simultaneously. With the 5 different binary search algorithms in play, for each move, construct a string with the averages of the binary search limits for each of the 5 characters and compare it with every string. Calculate `diff` for each pair of strings, where `diff` can be defined as the sum of the absolute value of the differences in the corresponding pair of characters' ascii values from the pair of string `x` (from the word list) and the constructed average string that we want to guess. For that move guess the word from the pair with the least `diff` out of all pairs.
+Constructing a Binary Search with a minimum and maximum limit for each of the 5 characters and running them simultaneously. 
+With the 5 different binary search algorithms in play, for each move, construct a string with the averages of the binary search limits for each of the 5 characters and compare it with every string. 
+Calculate `diff` for each pair of strings, where `diff` can be defined as the sum of the absolute value of the differences in the corresponding pair of characters' ascii values from the pair of string `x` (from the word list) and the constructed average string that we want to guess. 
+For that move guess the word from the pair with the least `diff` out of all pairs.
 
 #### Calculating diff between 2 values:
 ```
