@@ -33,7 +33,7 @@ With the 5 different binary search algorithms in play, for each move, construct 
 Calculate `diff` for each pair of strings, where `diff` can be defined as the sum of the absolute value of the differences in the corresponding pair of characters' ascii values from the pair of string `x` (from the word list) and the constructed average string that we want to guess. 
 For that move guess the word from the pair with the least `diff` out of all pairs.
 
-#### Calculating diff between 2 values:
+#### Calculating diff between 2 words:
 ```
 K N O L L _
 M M M M M
