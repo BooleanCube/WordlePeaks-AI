@@ -8,20 +8,20 @@ public class WordlePeaksAI {
 
         // System Rules
         System.out.println("""
-                RULES:
-                -------------------------------------------------------------------------------
-                You will be given a word to input into the Wordle Peaks Game and then prompted
-                for input which follows a specific parameter so it can know the output of each
-                move you make in the game.
-                
-                FOR EACH MOVE YOU NEED TO INPUT THE FEEDBACK FROM THE WORDLE PEAKS GAME:
-                - U (up) if the box is orange indicating that the letter is after.
-                - D (down) if the box is blue indicating that the letter is before.
-                - G (green) if the box is green and the letter is in the correct position.
-                
-                ACCEPTED INPUT EXAMPLES:
-                (without the quotation marks)
-               "UUBUB", "GGGGG" or "UBGUB"
+               RULES:
+               -------------------------------------------------------------------------------
+               You will be given a word to input into the Wordle Peaks Game and then prompted
+               for input which follows a specific parameter so it can know the output of each
+               move you make in the game.
+               
+               FOR EACH MOVE YOU NEED TO INPUT THE FEEDBACK FROM THE WORDLE PEAKS GAME:
+               - U (up) if the box is orange indicating that the letter is after.
+               - D (down) if the box is blue indicating that the letter is before.
+               - G (green) if the box is green and the letter is in the correct position.
+               
+               ACCEPTED INPUT EXAMPLES:
+               (without the quotation marks)
+               "UUDUD", "GGGGG" or "UDGUD"
                 """);
 
         Algorithm algorithm = new Algorithm();
